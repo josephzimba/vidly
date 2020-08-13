@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.getGenres=getGenres;var _httpService=_interopRequireDefault(require("./httpService")),_config=require("../config.json");function _interopRequireDefault(e){return e&&e.__esModule?e:{default:e}}function getGenres(){return _httpService.default.get(_config.apiUrl+"genres")}
